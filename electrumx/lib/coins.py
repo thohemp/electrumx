@@ -956,8 +956,8 @@ class DeepOnion(Coin):
     @classmethod
     def header_hash(cls, header):
         '''Given a header return the hash.'''
-        import x13_hash
-        return x13_hash.getPoWHash(header)
+        import deeponion_x13_hash
+        return deeponion_x13_hash.getPoWHash(header)
 
 
 
